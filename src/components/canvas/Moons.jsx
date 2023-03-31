@@ -3,31 +3,34 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
-const Aliens = ({ isMobile }) => {
-    const alien = useGLTF('./aliens/abduction.gltf')
+const Moons = ({ isMobile }) => {
+    const moons = useGLTF('./fourMoons/fourMoons.gltf')
+    //#915eff
 
     return (
         <mesh>
-            <hemisphereLight intensity={.45} groundColor="black" />
-            <pointLight intensity={3} />
+            <hemisphereLight intensity={.75} groundColor="#915eff" />
+            <pointLight intensity={.65} position={[0, 30, 0]} />
             <spotLight
-                position={[-20, 50, 10]}
-                angle={0.12}
-                penumbra={.7}
-                intensity={1}
+                // position={[-20, 50, 10]}
+                position={[0, 0, 0]}
+                // angle={0.12}
+                angle={3.6}
+                penumbra={1}
+                intensity={.9}
                 castShadow
                 shadow-mapSize={1024}
             />
             <primitive
-                object={alien.scene}
-                scale={isMobile ? 0.5 : 10}
-                position={[0, -1.55, -1.5]}
+                object={moons.scene}
+                scale={isMobile ? 0.5 : 15}
+                position={[0, -.9, -3.5]}
                 rotation={[0, 0, 0]} />
         </mesh>
     )
 }
 
-const AliensCanvas = () => {
+const MoonsCanvas = () => {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -58,15 +61,16 @@ const AliensCanvas = () => {
         >
             <Suspense fallback={<CanvasLoader />}>
                 <OrbitControls
+                    autoRotate
                     enableZoom={false}
-                    maxPolarAngle={Math.PI / 2}
-                    minPolarAngle={Math.PI / 2}
+                    maxPolarAngle={(Math.PI / 2) - .1}
+                    minPolarAngle={(Math.PI / 2) - .15}
                 />
-                <Aliens isMobile={isMobile} />
+                <Moons isMobile={isMobile} />
             </Suspense>
             <Preload all />
         </Canvas>
     )
 }
 
-export default AliensCanvas
+export default MoonsCanvas
