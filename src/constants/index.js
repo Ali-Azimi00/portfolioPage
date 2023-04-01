@@ -1,5 +1,6 @@
 import {
     mobile,
+    bootstrap,
     c,
     backend,
     creator,
@@ -8,7 +9,7 @@ import {
     typescript,
     html,
     css,
-    reactjs,
+    react,
     redux,
     tailwind,
     nodejs,
@@ -22,6 +23,7 @@ import {
     shopify,
     carrent,
     jobit,
+    sql,
     tripguide,
     threejs,
 } from "../assets";
@@ -33,7 +35,7 @@ export const navLinks = [
     },
     {
         id: "work",
-        title: "Work",
+        title: "Skills",
     },
     {
         id: "contact",
@@ -43,15 +45,15 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Front-End Developer",
+        title: "Front End Developer",
         icon: web,
     },
     {
-        title: "Back-End Developer",
+        title: "Back End Developer",
         icon: mobile,
     },
     {
-        title: "RESTful API",
+        title: "APIs",
         icon: backend,
     },
     {
@@ -75,27 +77,27 @@ const technologies = [
     },
     {
         name: "React JS",
-        icon: reactjs,
+        icon: react,
     },
     {
         name: "C#",
         icon: c,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
+        name: "sql",
+        icon: sql,
     },
     {
         name: "git",
         icon: git,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "bootstrap",
+        icon: bootstrap,
     },
 
 ];
@@ -157,6 +159,16 @@ const experiences = [
         icon: meta,
         iconBg: "#E6DEDD",
         date: "Connect from the front or back end",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+        ],
+    },
+    {
+        title: "UI kits",
+        company_name: "With my foundations of CSS and Javascript in place, mastering the use of these UI/CSS resources has made creating dynamic front-end designs quick and efficient",
+        icon: shopify,
+        iconBg: "#383E56",
+        date: "Bootstrap | Tailwind | Material UI",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
         ],

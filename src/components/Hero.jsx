@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 // import { ComputersCanvas } from './canvas';
 import { MoonsCanvas } from './canvas'
-import { technologies } from '../constants';
 
 const Hero = () => {
   return (
@@ -22,12 +21,12 @@ const Hero = () => {
             Hello, I'm <span className="text-[#915eff]">Ali</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Full-Stack Software engineer
+            I'm a Full-Stack Software engineer.
             <br className="sm:block hidden" /> Scroll-down to know more
           </p>
         </div>
       </div>
-      <MoonsCanvas icon={technologies.icon} />
+      <MoonsCanvas />
       {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full 
