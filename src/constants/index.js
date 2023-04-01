@@ -108,14 +108,14 @@ const experiences = [
         company_name: "Strong foundations that have helped me expand my skills. Necessary tools in any programmer's belt",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "preferred kits: Bootstrap CSS | Tailwind CSS",
+        date: "",
         points: [
             // "Strong foundations that have helped me expand skills",
         ],
     },
     {
         title: "React.js",
-        company_name: "My preferred development library. Its modular nature makes it easy to build my front-end and since it's open-source I have plenty of resources to draw upon",
+        company_name: "My preferred development library. Its modular nature makes it easy to build my front end and, since it's open source, I have plenty of resources to draw upon",
         icon: tesla,
         iconBg: "#E6DEDD",
         date: "Git | Bash",
@@ -125,7 +125,7 @@ const experiences = [
     },
     {
         title: "C#/.Net",
-        company_name: "My introduction to the back-end, I find the C#/.Net development environment great to work with. C#'s syntax is easy to follow and the .Net framework makes it easy to define the interactions between objects ",
+        company_name: "My introduction to the back end, I find the C#/.Net development environment great to work with. C#'s syntax is easy to follow and the .Net framework makes it easy to define the interactions between objects ",
         icon: shopify,
         iconBg: "#383E56",
         date: "Visual Studio",
@@ -158,14 +158,14 @@ const experiences = [
         company_name: "Google has made it easy to track the webpage and its user's behaviors to optimize the website and better serve clients",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Connect from the front or back end",
+        date: "Front and Back End",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
         ],
     },
     {
         title: "UI kits",
-        company_name: "With my foundations of CSS and Javascript in place, mastering the use of these UI/CSS resources has made creating dynamic front-end designs quick and efficient",
+        company_name: "With my foundations of CSS and Javascript in place, mastering the use of these UI/CSS resources has made creating dynamic front end designs quick and efficient",
         icon: shopify,
         iconBg: "#383E56",
         date: "Bootstrap | Tailwind | Material UI",
@@ -247,7 +247,7 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "Game??",
+        name: "Productivity",
         description:
             "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [

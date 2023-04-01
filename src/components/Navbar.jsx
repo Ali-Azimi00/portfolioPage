@@ -24,7 +24,7 @@ const Navbar = () => {
         >
           <img src={AAlogo} alt="logo" className="w-11 h-11 object-contain" />
           <p className="text-white text-[20px] font-bold cursor-pointer flex">
-            Ali A. &nbsp;<span className="sm:block hidden">| Software Engineer</span></p>
+            Ali Azimi &nbsp;<span className="md:block hidden">| Software Engineer</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (

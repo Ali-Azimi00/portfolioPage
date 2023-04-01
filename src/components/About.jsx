@@ -56,9 +56,9 @@ const About = () => {
         variants={fadeIn("", "", .1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a driven full-stack software engineer who
-        enjoys making dynamic and interactive front-end
-        designs. Along with extensive experience in React,
+        I'm a driven full stack software engineer who
+        enjoys making dynamic and interactive front end
+        designs. I'm always on the lookout for new systems and technologies to integrate into my work. Along with extensive experience in React,
         I have professional experience using .NET/C# and SQL
       </motion.p>
 
