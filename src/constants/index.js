@@ -52,10 +52,10 @@ const services = [
         title: "Back End Developer",
         icon: mobile,
     },
-    {
-        title: "APIs",
-        icon: backend,
-    },
+    // {
+    //     title: "APIs",
+    //     icon: backend,
+    // },
     {
         title: "Databases",
         icon: creator,
