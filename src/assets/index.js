@@ -10,6 +10,10 @@ import close from "./close.svg";
 
 import bootstrap from "./tech/bootstrap.png"
 import c from "./tech/c.png";
+import java from "./tech/java.png"
+import aws from "./tech/aws.png"
+import spring from "./tech/spring.png"
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -36,6 +40,9 @@ import tripguide from "./tripguide.png";
 
 export {
   c,
+  java,
+  aws,
+  spring,
   logo,
   backend,
   bootstrap,

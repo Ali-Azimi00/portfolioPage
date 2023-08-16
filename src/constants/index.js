@@ -2,6 +2,9 @@ import {
     mobile,
     bootstrap,
     c,
+    aws,
+    java,
+    spring,
     backend,
     creator,
     web,
@@ -80,8 +83,12 @@ const technologies = [
         icon: react,
     },
     {
-        name: "C#",
-        icon: c,
+        name: "Java",
+        icon: java,
+    },
+    {
+        name: "Spring",
+        icon: spring,
     },
     {
         name: "sql",
@@ -90,6 +97,10 @@ const technologies = [
     {
         name: "git",
         icon: git,
+    },
+    {
+        name: "aws",
+        icon: aws,
     },
     {
         name: "Tailwind CSS",
@@ -114,31 +125,31 @@ const experiences = [
         ],
     },
     {
-        title: "React.js",
-        company_name: "My preferred development library. Its modular nature makes it easy to build my front end and, since it's open source, I have plenty of resources to draw upon",
+        title: "React",
+        company_name: "My preferred development library. Its modular nature makes it easy to build my front end and the many open source, I have plenty of resources to draw upon",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Git | Bash",
+        date: "JS | TS",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
         ],
     },
     {
-        title: "C#/.Net",
-        company_name: "My introduction to the back end, I find the C#/.Net development environment great to work with. C#'s syntax is easy to follow and the .Net framework makes it easy to define the interactions between objects ",
+        title: "Java",
+        company_name: "I find the Java development environment great to work with. Java's syntax is easy to follow and the Spring Framework reduces boilerplate code, speeding up project development and making it easy to define the interactions between objects",
         icon: shopify,
         iconBg: "#383E56",
-        date: "Visual Studio",
+        date: "IntelliJ | Spring Framework",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using React and other related technologies.",
         ],
     },
     {
-        title: "SQL",
+        title: "SQL | PostgreSql",
         company_name: "Learning to use databases was simpler than I expected. My advice to begginers: imagine an excel sheet in your head",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Microsoft SQL Managment Studio",
+        date: "Microsoft SQL Managment Studio | DBeaver",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
         ],
@@ -154,11 +165,11 @@ const experiences = [
         ],
     },
     {
-        title: "Google Analytics",
-        company_name: "Google has made it easy to track the webpage and its user's behaviors to optimize the website and better serve clients",
+        title: "AWS Certified Cloud Practitioner",
+        company_name: "Well versed in the many available resources and services provided by the AWS Cloud",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Front and Back End",
+        date: "Cert Date: Aug/2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
         ],
